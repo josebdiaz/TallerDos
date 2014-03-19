@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'nerisblack';
+    src: url('fonts/Neris-Black-webfont.eot');
+    src: url('fonts/Neris-Black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-Black-webfont.woff') format('woff'),
+         url('fonts/Neris-Black-webfont.ttf') format('truetype'),
+         url('fonts/Neris-Black-webfont.svg#nerisblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nerisblack_italic';
+    src: url('fonts/Neris-BlackItalic-webfont.eot');
+    src: url('fonts/Neris-BlackItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-BlackItalic-webfont.woff') format('woff'),
+         url('fonts/Neris-BlackItalic-webfont.ttf') format('truetype'),
+         url('fonts/Neris-BlackItalic-webfont.svg#nerisblack_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nerislight_italic';
+    src: url('fonts/Neris-LightItalic-webfont.eot');
+    src: url('fonts/Neris-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-LightItalic-webfont.woff') format('woff'),
+         url('fonts/Neris-LightItalic-webfont.ttf') format('truetype'),
+         url('fonts/Neris-LightItalic-webfont.svg#nerislight_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nerissemibold';
+    src: url('fonts/Neris-SemiBold-webfont.eot');
+    src: url('fonts/Neris-SemiBold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-SemiBold-webfont.woff') format('woff'),
+         url('fonts/Neris-SemiBold-webfont.ttf') format('truetype'),
+         url('fonts/Neris-SemiBold-webfont.svg#nerissemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nerissemibold_italic';
+    src: url('fonts/Neris-SemiBoldItalic-webfont.eot');
+    src: url('fonts/Neris-SemiBoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Neris-SemiBoldItalic-webfont.woff') format('woff'),
+         url('fonts/Neris-SemiBoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/Neris-SemiBoldItalic-webfont.svg#nerissemibold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+.contenedorCarrito{
+	position: absolute;
+	margin-left: 79%;
+	clear: both;
+	width: 20%;
+	float: right;
+	background: #1b8fe3;
+	color: #ffc600;
+}
+.contenedorCarrito p{
+	text-align: center;
+	font-family: 'nerislight_italic';
+}
+.contenedorCarrito table tr td{
+	text-align: left;
+	padding: 6px;
+
+}
+header{
+	background: #006bb8;
+}
+body{
+	background: #424242;
+}
+footer{
+	color: white;
+}
+.botonesCarrito nav{
+  width: 100%;
+}
+.botonesCarrito nav a {
+ width: 25%;
+ font-size: auto;
+
+ margin-left: 25%;
+ padding: 10px;
+ background: #006bb8;
+}
+.botonesCarrito nav a:hover{
+	 background: #1b8fe3;
+}
+.formulario{
+	padding: 3%;
+	margin-left: 40%;
+}
+.confirmacionVenta h3{
+	padding-top: 4%;
+}
+#elFormulario ,.confirmacionVenta{
+	background: #ffc600;
+	color: #006bb8;
+	height: 200px;
+}
+.tituloprimario {
+	color: #ffc600;
+	font-family: 'nerisblack_italic';
+	text-decoration: none;
+}
+article:nth-child(2n+1) { 
+	background: #006bb8;
+	color: #ffc600;
+} 
+article:nth-child(2n) { 
+	background: #ffc600;
+	color: #006bb8;
+}
+article:nth-child(2n+1) a:visited{ 
+	color: #ffc600;
+} 
+article:nth-child(2n) a:visited{ 
+	color: #006bb8;
+}
+a{
+	text-decoration: none;
+}
+.contenedorCarrito table{
+	width: 100%;
+	border-spacing: 0;
+	border-collapse: collapse;
+	font-family: 'nerislight_italic';
+}
+.contenedorCarrito table tr:last-child{
+	background: white;
+	color: #006bb8;	
+}
+
+#elHeader{
+	width: 100%;
+}
+nav{
+	height: 100%;
+	width: 500px;
+}
+
+#titulote{
+	width: 30%;
+	height: 100%;
+	float: left;
+	display: inline-block;
+	margin-left: 5%;
+}
+#botonesh{
+	width: 60%;
+	height: 100%;
+	display: inline-block;
+}
+.tituloprimario{
+	margin-bottom: 10px;
+}
+
+.destacados	{
+	text-align: center;
+	font-family: 'nerissemibold_italic';
+	color: #ffc600;
+}
+button{
+	margin-left: 10%;
+}
+.subtitulo {
+	width: 100%;
+}
+.confirmacionVenta{
+	display: block;
+	font-family: 'nerissemibold';
+}
+.informacion {
+	display: inline-block;
+	width: 50%;
+}
+table{
+	font-family: 'nerissemibold';
+}
+.infoProducto{
+	margin-left: 10%;
+	text-align: left;
+	font-family: 'nerissemibold';
+}
+.nombreProducto{
+	margin-left: 10%;
+	font-family: 'nerisblack';
+}
+.precioProducto{
+	margin-left: 10%;
+	font-family: 'nerissemibold';
+}
+.titulote{
+	display: inline-block;
+	width: 50%;
+
+}
+.botonesHeader{
+	display: inline-block;
+
+	width: 50%;
+}
+.imgPost{
+	height: auto;
+	width: 100%;
+	margin-top: 15%;
+	float: left;
+}
+.imagen{
+	display: inline-block;
+	margin-left: 5%;
+	width: 14%;
+}
+.sucess{
+	text-align: center;
+}
+#elFooter{
+	text-align: center;
+}
+article{
+	display: inline-block;
+}
